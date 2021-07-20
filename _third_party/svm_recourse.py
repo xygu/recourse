@@ -20,7 +20,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.metrics.pairwise import linear_kernel, rbf_kernel, polynomial_kernel, chi2_kernel, laplacian_kernel, sigmoid_kernel
 
-from sklearn.datasets.samples_generator import make_blobs, make_moons, make_circles, make_classification
+from sklearn.datasets import make_blobs, make_moons, make_circles, make_classification
 # import scipy
 
 from sklearn import svm
